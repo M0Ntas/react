@@ -8,7 +8,7 @@ const ToDo = ({ todo, toggleTask, delTask}) => {
         {todo.task}
       </div>
       <div className="item-delete" onClick={ () => delTask(todo.id)}>
-        X
+        x
       </div>
     </div>
   )

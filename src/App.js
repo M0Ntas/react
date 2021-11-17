@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Form from './components/Form'
 import ToDo from "./components/ToDo";
-import TestTodo from "./components/TestTodo";
 
 function App() {
   const [todos, setTodos] = useState([])
@@ -13,7 +12,6 @@ function App() {
         task: userInput,
         complete: false
       }
-      console.log('====>newItem<====', newItem)
       setTodos([...todos, newItem])
     }
   }
