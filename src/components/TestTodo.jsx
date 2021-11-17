@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const TestTodo = () => {
   const [value, setValue] = useState('')
   const [arr, setArr] = useState([])
-  
+
   const click = () => {
     setArr([...arr, {
       id: Date.now(),
@@ -17,8 +17,8 @@ const TestTodo = () => {
 
   return (
     <div style={{marginTop: '50px'}}>
-      <input 
-        type="text" 
+      <input
+        type="text"
         placeholder="New tasks..."
         value={value}
         onChange={(e) => setValue(e.target.value)}
