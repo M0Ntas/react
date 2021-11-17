@@ -13,7 +13,6 @@ const TestTodo = () => {
 
   const handleDelete = (li) => {
     setArr(arr.filter(item => item.id !== li.id))
-    console.log('====>HELLO DELETE<====')
   }
 
   return (

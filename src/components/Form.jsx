@@ -29,7 +29,7 @@ const Form = ({addTask}) => {
         onKeyDown={handleKeyPress}
         placeholder="Введите текст..."
       />
-      <button>Сохранить</button>
+      <button>Save</button>
     </form>
   )
 };
