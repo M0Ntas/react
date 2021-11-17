@@ -5,7 +5,6 @@ const Form = ({addTask}) => {
 
   const handleChange = (e) => {
     setUserInput(e.currentTarget.value)
-    console.log('====>userInput<====', userInput)
   }
 
   const handleSubmit = (e) => {

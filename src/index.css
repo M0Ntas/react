@@ -52,7 +52,7 @@
   display: inline-block;
   cursor: pointer;
   float: right;
-  font-size: 22px;
+  font-size: 14px;
   position: relative;
   left: -4px;
   bottom: 5px;
@@ -61,4 +61,7 @@
 .strike {
   text-decoration: line-through;
   color: darkgrey;
+}
+.start{
+  font-size: 24px;
 }

@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>TooDoo list: {todos.length}</h1>
+        <h1 className="start">TooDoo list: {todos.length}</h1>
       </header>
       <Form addTask={addTask}/>
       {todos.map((todo) => {
