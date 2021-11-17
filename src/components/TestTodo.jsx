@@ -19,7 +19,7 @@ const TestTodo = () => {
     <div style={{marginTop: '50px'}}>
       <input 
         type="text" 
-        placeholder="Новые задачи..."
+        placeholder="New tasks..."
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
