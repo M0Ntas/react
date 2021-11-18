@@ -19,6 +19,8 @@ const Form = ({addTask}) => {
     }
   }
 
+  // TODO: Remove input border!!!!
+
   // TODO: Add input animation
 
   return (
