@@ -19,6 +19,8 @@ const Form = ({addTask}) => {
     }
   }
 
+  // TODO: Add input animation
+
   return (
     <form onSubmit={handleSubmit}>
       <input
