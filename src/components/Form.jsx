@@ -3,10 +3,6 @@ import { useState } from "react";
 const Form = ({addTask}) => {
   const [userInput, setUserInput] = useState('')
 
-  const handleChange = (e) => {
-    setUserInput(e.currentTarget.value)
-  }
-
   const handleSubmit = (e) => {
     e.preventDefault()
     addTask(userInput)
@@ -17,13 +13,11 @@ const Form = ({addTask}) => {
     setUserInput(e.currentTarget.value)
   }
 
-
   const handleKeyPress = (e) => {
     if(e.key === "Enter") {
       handleSubmit(e)
     }
   }
-
 
   return (
     <form onSubmit={handleSubmit}>
