@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from "react";
 const Form = ({addTask}) => {
   const [userInput, setUserInput] = useState('')
+
   const handleSubmit = (e) => {
     e.preventDefault()
     addTask(userInput)
@@ -12,16 +13,11 @@ const Form = ({addTask}) => {
     setUserInput(e.currentTarget.value)
   }
 
-
   const handleKeyPress = (e) => {
     if(e.key === "Enter") {
       handleSubmit(e)
     }
   }
-
-  // TODO: Remove input border!!!!
-
-  // TODO: Add input animation
 
   return (
     <form onSubmit={handleSubmit}>
